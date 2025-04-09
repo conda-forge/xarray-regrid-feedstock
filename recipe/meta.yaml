@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "xarray-regrid" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xarray_regrid-{{ version }}.tar.gz
-  sha256: f0bef6a346e247c657ed293752b5685f3b559b32de546889ca9e9fca14b81f3a
+  sha256: 2c8a7baa321c2451aa42b387fef3b22ecd7bdf693e7ee5c52ebe5168482a1e2a
 
 build:
   noarch: python
@@ -53,4 +53,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - BSchilperoort    
+    - BSchilperoort
